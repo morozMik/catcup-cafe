@@ -18,6 +18,9 @@ export default {
         'gray-light': '#d3dce6',
         'green-light': '#BEF34D'
       },
+      fontFamily: {
+        inter: ["Inter", "sans-serif"]
+      },
     },
   },
   plugins: [],
