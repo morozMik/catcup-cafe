@@ -19,7 +19,8 @@ export default {
         'green-light': '#BEF34D'
       },
       fontFamily: {
-        inter: ["Inter", "sans-serif"]
+        inter: ["Inter", "sans-serif"],
+        poppins:[" Poppins", "sans-serif"]
       },
     },
   },
