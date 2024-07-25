@@ -11,7 +11,7 @@ import location from '../../public/Svgs/location.svg'
 
 function Header() {
   return (
-    <div className='p-3 gap-3 flex m-0 w-screen bg-gray'>
+    <div className='p-3 gap-3 flex m-0 bg-gray'>
       <div>
         <img src={logo} alt="logo SVG" />
       </div>
