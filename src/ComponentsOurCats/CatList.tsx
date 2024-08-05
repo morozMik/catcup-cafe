@@ -1,5 +1,11 @@
 import React, { useEffect, useState } from 'react'
-
+import frodo from '../../public/Cats/Frofo.png'
+import zora from '../../public/Cats/zora.png'
+import sam from '../../public/Cats/sam.png'
+import legolas from '../../public/Cats/legolas.png'
+import gimli from '../../public/Cats/gimli.png'
+import merry from '../../public/Cats/merry.png'
+import { log } from 'console'
 type CatListProps = {
   catsJson: object
 }
@@ -7,25 +13,14 @@ type CatListProps = {
 
 function CatList({catsJson}: CatListProps) {
 
-    // const [allCatsArr, setAllCatsArr] = useState([''])
-    // const [imgURls, setImgURls] = useState([''])
-    //const allCats = import.meta.glob('../../public/Cats/*.png')
+  const images = [zora,sam,frodo,legolas,gimli,merry]
+  const CatListItem = catsJson.cats.map((cat, index)=> {
     
-
-
-    
-  
-  
-  
-  const CatListItem = catsJson.cats.map(cat=> {
-    
-    
-
     return(
-      <div className='ml-7 mr-8 mt-8 bg-white flex py-8 rounded-xl cat-card-shadow' k>
+      <div className='ml-7 mr-8 mt-8 bg-white flex py-8 rounded-xl cat-card-shadow' key={index}>
         <div className='w-72 flex-1 mr-5 ml-4'>
         
-          <img src={''} alt={`image - }`} className='rounded-lg'/>
+          <img src={images[cat.id]} alt={`image - }`} className='rounded-lg'/>
         
         </div>
         <div className='flex-1 mr-4'>
