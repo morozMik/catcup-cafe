@@ -8,12 +8,9 @@ function Subscribe() {
     setEmail('')
     e.preventDefault();
   }
-  const emailChange = (v: string) => {
-    setEmail(prev => v)
-  }
 
   return (
-    <div className='mt-56 bg-no-repeat bg-cover bg-[url(./public/Pngs/subsscribe.png)]'>
+    <div className='rounded-lg mt-56 bg-no-repeat bg-cover bg-[url(./public/Pngs/subsscribe.png)]'>
       <div className='py-20'>
       <h3 className='m-plus-bold text-white text-3xl tracking-widest'>
         Subscribe to get 50% discount price

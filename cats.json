@@ -1,0 +1,34 @@
+{
+  "cats":[{
+      "id": "0",
+      "name": "Zora",
+      "bio": "Zora was born in June 2020 and came to the Emporium during our most challenging year yet. We adopted Zora and her favourite playmate and subterrain August 2020 and watching these two sweet girls grow in size and confidence really helped to lift our spirits."
+  },
+  {
+      "id": "1",
+      "name": "Sam",
+      "bio": "Sam is part of the Lord of The Rings kitten crew! Sam was born in June 2021 and arrived at Catcup in October 2021 along with his sisters Frodo, Gimil, Legolas, Merry and Pippin. Sam is the only male in his litter but is also the biggest baby of them."
+  },
+  {
+      "id": "2",
+      "name": "Frodo",
+      "bio": "Frodo is the only tabby in our Lord of the Rings litter, and is the cutest little sweetheart. She loves to cuddle and it's not rare to find her lazing around on the laps or knees of staff members or guests. She's a glamorous lady and knows she's beautiful, she loves to show off."
+  },
+  {
+    "id": "3",
+    "name": "Legolas",
+    "bio": "Legolas is one of the calicos in our Lord of the Rings litter. She is the smallest of the bunch but also one of the biggest cuddle bugs! Though this sweet girl may look angelic don't let her innocent face fool you she thrives on mischief."
+  },
+  {
+    "id": "4",
+    "name": "Gimli",
+    "bio": "Gimli is the princess of the Lord of the Rings clan. She is the only black and white cat in her litter. This dainty little lady loves to prance around the cafe delighting her adoring audience. For such an elegant lady, she has a very loud and demanding voice."
+  },
+  {
+    "id": "5",
+    "name": "Merry",
+    "bio": "Merry is one of the calicos in our Lord of the Rings litter! Her enormous ears and acrobatic sleeping positions are often what first draw our guests to little Merry. She's all about playtime and the best way to her heart is through dangling a toy in her direction rather than giving her a cuddle"
+  }
+  
+  ]
+}

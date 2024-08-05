@@ -17,7 +17,9 @@ export default {
         'gray': '#1E1E1E',
         'gray-light': '#d3dce6',
         'green-light': '#BEF34D',
-        'green-cat': '#AEFF00'
+        'green-cat': '#AEFF00',
+        'green-footer': '#78AD07',
+
       },
       fontFamily: {
         inter: ["Inter", "sans-serif"],
